@@ -1,0 +1,926 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "s93vgTwFvi6zs9J5v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "shChZ7cQ-SIe7JKo6"
+			},
+			"name": "Navigation",
+			"reference": "B211",
+			"tags": [
+				"Exploration",
+				"Outdoor",
+				"Technical",
+				"Vehicle"
+			],
+			"specialization": "Anomalous",
+			"difficulty": "iq/h",
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Pure",
+					"modifier": -5
+				}
+			],
+			"tech_level": "",
+			"points": 1
+		},
+		{
+			"id": "SGiz51acGROonf6aa",
+			"name": "Anomalous Fields",
+			"children": [
+				{
+					"id": "s8sOU10gVEqSTh51l",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sGkpZOHz0g5ARAcej"
+					},
+					"name": "Thaumatology",
+					"reference": "B225",
+					"tags": [
+						"Magical",
+						"Occult"
+					],
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -7
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "s9Ka3vnRI9bYdqWp_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8ymM74He3oqSLAIz"
+					},
+					"name": "Expert Skill",
+					"tags": [
+						"Knowledge",
+						"Occult",
+						"Scholarly",
+						"Social Sciences"
+					],
+					"specialization": "Noöspherics",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "sJHXF_I93eXo9YRyr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8ymM74He3oqSLAIz"
+					},
+					"name": "Expert Skill",
+					"tags": [
+						"Knowledge",
+						"Occult",
+						"Scholarly",
+						"Social Sciences"
+					],
+					"specialization": "Infohazards",
+					"difficulty": "iq/h",
+					"points": 1
+				},
+				{
+					"id": "sUFiql4op5tfnUbAy",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s8ymM74He3oqSLAIz"
+					},
+					"name": "Expert Skill",
+					"tags": [
+						"Knowledge",
+						"Occult",
+						"Scholarly",
+						"Social Sciences"
+					],
+					"specialization": "Antimemetics",
+					"difficulty": "iq/h",
+					"points": 1
+				}
+			]
+		},
+		{
+			"id": "SxKyT_tZ52Mym34VT",
+			"name": "Departments",
+			"children": [
+				{
+					"id": "SCtyz3l6agf4HfbSJ",
+					"name": "Alchemy Department",
+					"children": [
+						{
+							"id": "sox1qdS608QQXDFUr",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sa_ZE2rnayiRCI376"
+							},
+							"name": "Alchemy",
+							"reference": "B174",
+							"tags": [
+								"Magical",
+								"Natural Science",
+								"Occult"
+							],
+							"difficulty": "iq/vh",
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sSSHGRt4adSoQBl-X",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGkpZOHz0g5ARAcej"
+							},
+							"name": "Thaumatology",
+							"reference": "B225",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"specialization": "Alchemy",
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SLm9NSGFXu4gQpkMI",
+					"name": "Department of Parazoology",
+					"children": [
+						{
+							"id": "sSKCotp535jJLIZoi",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sb6LoqgrQgzKvzHH2"
+							},
+							"name": "Biology",
+							"reference": "B180",
+							"tags": [
+								"Natural Science",
+								"Plant"
+							],
+							"specialization": "Parazoology",
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -6
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "s8lHCIVOGHiZMcEvX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sxVUUyE3lmz8LXpHG"
+							},
+							"name": "Naturalist",
+							"reference": "B211",
+							"tags": [
+								"Animal",
+								"Exploration",
+								"Natural Science",
+								"Outdoor",
+								"Plant"
+							],
+							"replacements": {
+								"Planet type": "Anomalous"
+							},
+							"specialization": "@Planet type@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SFPQUUyz_xw-GVq6L",
+					"name": "Department of Tactical Theology",
+					"children": [
+						{
+							"id": "sEHEV_ObflbC9ABtY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sMIRD7ORV8Bmze6Af"
+							},
+							"name": "Theology",
+							"reference": "B226",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"specialization": "Tactical",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Religious Ritual",
+									"specialization": "Tactical",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sFQn9Uzt_Pn-rSwAd",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sMIRD7ORV8Bmze6Af"
+							},
+							"name": "Theology",
+							"reference": "B226",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"specialization": "@Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Religious Ritual",
+									"specialization": "@Specialty@",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sfSlZvELzFVTOdmSD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s0OrRdzDLyXnfmwj9"
+							},
+							"name": "Religious Ritual",
+							"reference": "B217",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"specialization": "@Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Ritual Magic",
+									"specialization": "@Specialty@",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Theology",
+									"specialization": "@Specialty@",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sLrpu0oAyfwtsBoXW",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sDWD-D17CLWj-4iaZ"
+							},
+							"name": "Exorcism",
+							"reference": "B193",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "will/h",
+							"defaults": [
+								{
+									"type": "will",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Religious Ritual",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Ritual Magic",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Theology",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "Sn0698JF5zaFvEwwj",
+					"name": "Memetics Division",
+					"children": [
+						{
+							"id": "s8ZSjpok6xzWzLS0D",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"tags": [
+								"Knowledge",
+								"Occult",
+								"Scholarly",
+								"Social Sciences"
+							],
+							"specialization": "Memetics",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "swp-F9pqeknXCSjV8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s7K5VfH6fgYzs2cty"
+							},
+							"name": "Brainwashing",
+							"reference": "B182",
+							"tags": [
+								"Military",
+								"Spy"
+							],
+							"difficulty": "iq/h",
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "psychology"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sFLvqTNEWgsRDRkOw",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sH-gwMqLTWQ337rzx"
+							},
+							"name": "Propaganda",
+							"reference": "B216",
+							"tags": [
+								"Business",
+								"Military",
+								"Social",
+								"Spy"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Psychology",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sk_VWtec7TFx-gKJM",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sjU9kn3jTX-_5Q5p5"
+							},
+							"name": "Psychology",
+							"reference": "B216",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Sociology",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sn7kkMS4upaFqYcje",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "szf-0DrUH5ef3Cw0E"
+							},
+							"name": "Sociology",
+							"reference": "B221",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Anthropology",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Psychology",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SAUpSYIVqJUGDdUid",
+					"name": "Psionics Department",
+					"children": [
+						{
+							"id": "sK1FQCRcsFpiHTxS5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"reference": "B193,MA56",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult",
+								"Scholarly"
+							],
+							"specialization": "Psionics",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "sVH6xqnBB-5EW8TDm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s-nCakBAwKoYJf3Y8"
+							},
+							"name": "Electronics Operation",
+							"reference": "B189",
+							"tags": [
+								"Technical"
+							],
+							"specialization": "Psychotronics",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"specialization": "Psychotronics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sy0A43ebLf8d7n4HQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s_uq2FHqEg0FPHmUW"
+							},
+							"name": "Electronics Repair",
+							"reference": "B190",
+							"tags": [
+								"Maintenance",
+								"Repair"
+							],
+							"specialization": "Psychotronics",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"specialization": "Psychotronics",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "somGEFI-jSJCd7q1h",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sQxvmbBr8Rf_iu37S"
+							},
+							"name": "Engineer",
+							"reference": "B190",
+							"tags": [
+								"Design",
+								"Engineer",
+								"Invention"
+							],
+							"specialization": "Psychotronics",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"specialization": "Psychotronics",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"when_tl": {
+									"compare": "at_least",
+									"qualifier": 5
+								},
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										},
+										"specialization": {
+											"compare": "is",
+											"qualifier": "applied"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sL79DBm24NdiVxKuF",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sjU9kn3jTX-_5Q5p5"
+							},
+							"name": "Psychology",
+							"reference": "B216",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Sociology",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SgEDjIjIRTDuGH62O",
+					"name": "Department of Ontokinetics",
+					"children": [
+						{
+							"id": "s8wXDvONZe_AlycXt",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGkpZOHz0g5ARAcej"
+							},
+							"name": "Thaumatology",
+							"reference": "B225",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "s9t9hq7ePaIMXcmFk",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "snf1C1wltuy8_tanr"
+							},
+							"name": "Physics",
+							"reference": "B213",
+							"tags": [
+								"Natural Science"
+							],
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"when_tl": {
+									"compare": "at_least",
+									"qualifier": 5
+								},
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										},
+										"specialization": {
+											"compare": "is",
+											"qualifier": "applied"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sNhuM__4fi9Stm1hm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult",
+								"Scholarly"
+							],
+							"specialization": "Ontokinetics",
+							"difficulty": "iq/h",
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SGdj0jXqjPvwJodc7",
+					"name": "Pataphysics Department",
+					"children": [
+						{
+							"id": "sb-qm7OmgVSM2Bkzl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult",
+								"Scholarly"
+							],
+							"specialization": "Pataphysics",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "sH4uBG7PgykyPJfg6",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s7TXAnMYKalDo9ZEs"
+							},
+							"name": "Literature",
+							"reference": "B205",
+							"tags": [
+								"Humanities",
+								"Scholarly",
+								"Social Sciences"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sJqmL6VdI__S74BnE",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sW3Kxrpz-XOleoZOl"
+							},
+							"name": "Philosophy",
+							"reference": "B213",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"replacements": {
+								"Specialty": "Pataphysics"
+							},
+							"specialization": "@Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sVsYDxMczPJZhKsJC",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sjU9kn3jTX-_5Q5p5"
+							},
+							"name": "Psychology",
+							"reference": "B216",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Sociology",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sBQNn54SArhpDwn0V",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "szf-0DrUH5ef3Cw0E"
+							},
+							"name": "Sociology",
+							"reference": "B221",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Anthropology",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Psychology",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

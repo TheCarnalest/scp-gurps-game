@@ -1,0 +1,572 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "tuqsBpOrLT4dh43d2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Traits.adq",
+				"id": "tM6z7Mx6e2V4VvUR4"
+			},
+			"name": "Absolute Direction",
+			"reference": "B34",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Physical"
+			],
+			"modifiers": [
+				{
+					"id": "mzAqmhv7AVMEsa8Up",
+					"name": "Requires signal",
+					"reference": "B34",
+					"cost_adj": "-20%",
+					"disabled": true
+				},
+				{
+					"id": "mlyWsQmSUUSpdpK7n",
+					"name": "3D Spatial Sense",
+					"reference": "B34",
+					"cost_adj": "5",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "anomalous"
+							},
+							"amount": 1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "starts_with",
+								"qualifier": "piloting"
+							},
+							"amount": 1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "aerobatics"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "free fall"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "hyperspace"
+							},
+							"amount": 2
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "space"
+							},
+							"amount": 2
+						}
+					],
+					"disabled": true
+				}
+			],
+			"base_points": 5,
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "anomalous"
+					},
+					"amount": 1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "body sense"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "air"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "land"
+					},
+					"amount": 3
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "navigation"
+					},
+					"specialization": {
+						"compare": "is",
+						"qualifier": "sea"
+					},
+					"amount": 3
+				}
+			],
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "TS_dpC2sd6KRngV0a",
+			"name": "Foundation Agent",
+			"container_type": "meta_trait",
+			"children": [
+				{
+					"id": "tZVKzmGP0QL1tg2XL",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tmp8yecgaZq9TOk59"
+					},
+					"name": "Security Rank",
+					"reference": "B29",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mAd4XuegfFs9nil3e",
+							"name": "Replaces Status",
+							"reference": "B29",
+							"cost_adj": "5",
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "mI4woJVsiA2YNZBQQ",
+							"name": "Courtesy",
+							"reference": "B29",
+							"cost_adj": "-4",
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tlMZCLXDjObO213xj",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t1HUGl4o498iCyvrw"
+					},
+					"name": "Duty (SCP Foundation)",
+					"reference": "B133",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "MZue0-fqOrjN4CPr-",
+							"name": "Frequency",
+							"children": [
+								{
+									"id": "mhUUfOk32bUQ0p0Vc",
+									"name": "Quite rarely",
+									"local_notes": "6-",
+									"cost_adj": "-2",
+									"disabled": true
+								},
+								{
+									"id": "mW-YQEq_mdF2RBfNg",
+									"name": "Fairly often",
+									"local_notes": "9-",
+									"cost_adj": "-5",
+									"disabled": true
+								},
+								{
+									"id": "msvrh4wHRJEy3AlsI",
+									"name": "Quite often",
+									"local_notes": "12-",
+									"cost_adj": "-10",
+									"disabled": true
+								},
+								{
+									"id": "m4j8is3YSsOSf0Cn1",
+									"name": "Almost all the time",
+									"local_notes": "15- or always on duty",
+									"cost_adj": "-15"
+								}
+							]
+						},
+						{
+							"id": "mFedMYNrohUiaBJY2",
+							"name": "Extremely Hazardous",
+							"cost_adj": "-5"
+						},
+						{
+							"id": "mma-S4L5mi1yZSW_e",
+							"name": "Involuntary",
+							"cost_adj": "-5",
+							"disabled": true
+						},
+						{
+							"id": "m7Q5t2czd5czPFWiR",
+							"name": "Nonhazardous",
+							"cost_adj": "5",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				},
+				{
+					"id": "tdA7UUIzD_gKonKE6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "thFGMVGT0QnExHCMW"
+					},
+					"name": "Secret (The Veil)",
+					"reference": "B152",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mekZ8zB8oJCt9nDLe",
+							"name": "Serious Embarrassment",
+							"reference": "B152",
+							"cost_adj": "-5",
+							"disabled": true
+						},
+						{
+							"id": "mAIKz6tCNGi_uNMik",
+							"name": "Utter Rejection",
+							"reference": "B152",
+							"cost_adj": "-10",
+							"disabled": true
+						},
+						{
+							"id": "m4ifcyrsTtKCwfTIt",
+							"name": "Imprisonment",
+							"reference": "B152",
+							"cost_adj": "-20",
+							"disabled": true
+						},
+						{
+							"id": "m3Dt44zZSO0dqftVM",
+							"name": "Possible Death",
+							"reference": "B152",
+							"cost_adj": "-30"
+						}
+					],
+					"calc": {
+						"points": -30
+					}
+				},
+				{
+					"id": "tI017JKZU4lazg2wJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t6Nq6oInwkU1qbAP1"
+					},
+					"name": "Patron",
+					"reference": "B72,P65",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "MFI0JVDrMKa3jQp95",
+							"name": "Power",
+							"children": [
+								{
+									"id": "mfbswIeZm0m8VGoJu",
+									"name": "@Who: Individual with 150% of PC's starting points@",
+									"reference": "B72",
+									"cost_adj": "10",
+									"disabled": true
+								},
+								{
+									"id": "mgQsflJ_x_faDs-uP",
+									"name": "@Who: Organization with assets of at least 1000 times starting wealth@",
+									"reference": "B72",
+									"cost_adj": "10",
+									"disabled": true
+								},
+								{
+									"id": "mwP_UkbL8EcHXF-5u",
+									"name": "@Who: Individual with twice the PC's starting points@",
+									"reference": "B72",
+									"cost_adj": "15",
+									"disabled": true
+								},
+								{
+									"id": "m7JJqAB9ZKCDLRpU3",
+									"name": "@Who: Organization with assets of at least 10000 times starting wealth@",
+									"reference": "B72",
+									"cost_adj": "15",
+									"disabled": true
+								},
+								{
+									"id": "mGNTqQPv8W_tsZHrX",
+									"name": "@Who: An ultra-powerful individual@",
+									"reference": "B72",
+									"cost_adj": "20",
+									"disabled": true
+								},
+								{
+									"id": "mVDDYihATgvgi_t0m",
+									"name": "@Who: Organization with assets of at least 100000 times starting wealth@",
+									"reference": "B72",
+									"cost_adj": "20",
+									"disabled": true
+								},
+								{
+									"id": "mebWrmAEsMB63fcpA",
+									"name": "@Who: Organization with assets of at least 1000000 times starting wealth@",
+									"reference": "B72",
+									"cost_adj": "25",
+									"disabled": true
+								},
+								{
+									"id": "mkk580EJ2yqrGRaZP",
+									"name": "SCP Foundation",
+									"reference": "B72",
+									"cost_adj": "30"
+								},
+								{
+									"id": "mawBTROwptisU2N7w",
+									"name": "@Who: A deity@",
+									"reference": "B72",
+									"cost_adj": "30",
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "MVVsv2uKNv9xGjn_p",
+							"name": "Frequency of Appearance",
+							"children": [
+								{
+									"id": "mA_OIgwIgovrwlxv7",
+									"name": "Appears quite rarely",
+									"reference": "B36",
+									"local_notes": "6-",
+									"cost_adj": "x0.5",
+									"disabled": true
+								},
+								{
+									"id": "mPkTt4yXtJPE8qgz6",
+									"name": "Appears fairly often",
+									"reference": "B36",
+									"local_notes": "9-",
+									"cost_adj": "x1",
+									"disabled": true
+								},
+								{
+									"id": "mvet5NTm8dnRuSbu9",
+									"name": "Appears quite often",
+									"reference": "B36",
+									"local_notes": "12-",
+									"cost_adj": "x2",
+									"disabled": true
+								},
+								{
+									"id": "mZUlmwqnwrgzixkKG",
+									"name": "Appears almost all the time",
+									"reference": "B36",
+									"local_notes": "15-",
+									"cost_adj": "x3",
+									"disabled": true
+								}
+							]
+						},
+						{
+							"id": "mdv2yvCz_nxMP7_fg",
+							"name": "Equipment",
+							"reference": "B73",
+							"local_notes": "@Equipment worth no more than average starting wealth@",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mUS1467hwXwp4EXil",
+							"name": "Equipment",
+							"reference": "B73",
+							"local_notes": "@Equipment worth more than average starting wealth@",
+							"cost_adj": "100%",
+							"disabled": true
+						},
+						{
+							"id": "mherwcZRkIRnAiIjT",
+							"name": "Highly Accessible",
+							"reference": "B73",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "m9takgkHWPLQOv8-v",
+							"name": "Special Abilities",
+							"reference": "B73",
+							"local_notes": "@Extensive social or political power@",
+							"cost_adj": "50%",
+							"disabled": true
+						},
+						{
+							"id": "mKNYHoKM_IQkvUBMt",
+							"name": "Special Abilities",
+							"reference": "B73",
+							"local_notes": "Higher TL equipment, access to the supernatural",
+							"cost_adj": "100%"
+						},
+						{
+							"id": "m1TjHi1sdWNZyQ9IM",
+							"name": "Minimal Interventions",
+							"reference": "B73",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mhm0NlW9sraUMax4I",
+							"name": "Secret",
+							"reference": "B73",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "mAKoRmbYIWDRxODu1",
+							"name": "Unwilling",
+							"reference": "B74",
+							"cost_adj": "-50%",
+							"disabled": true
+						},
+						{
+							"id": "m8YXFZiyqVW47lG5F",
+							"name": "Favor",
+							"reference": "B55",
+							"cost_adj": "x0.2",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 60
+					}
+				},
+				{
+					"id": "tOpH7Xe0XuUD3Mll0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tiE8dIan1PMH6pAni"
+					},
+					"name": "Legal Immunity",
+					"reference": "B65",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "mFgXd0S17AzRgBoQg",
+							"name": "Foundation Agent",
+							"reference": "B65",
+							"cost_adj": "5"
+						},
+						{
+							"id": "mohB_IqrtasoFniUY",
+							"name": "Petty Diplomat",
+							"reference": "B65",
+							"cost_adj": "15",
+							"disabled": true
+						},
+						{
+							"id": "mRsIFfTKaMb3gbMb-",
+							"name": "Diplomatic Immunity",
+							"reference": "B65",
+							"cost_adj": "20",
+							"disabled": true
+						},
+						{
+							"id": "mr751Y4fDJ9cKq2fI",
+							"name": "Bard",
+							"reference": "B65",
+							"cost_adj": "10",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"calc": {
+				"points": 20
+			}
+		}
+	]
+}
