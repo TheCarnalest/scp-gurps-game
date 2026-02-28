@@ -2,118 +2,58 @@
 	"version": 5,
 	"rows": [
 		{
-			"id": "s93vgTwFvi6zs9J5v",
+			"id": "s9Ka3vnRI9bYdqWp_",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "shChZ7cQ-SIe7JKo6"
+				"id": "s8ymM74He3oqSLAIz"
 			},
-			"name": "Navigation",
-			"reference": "B211",
+			"name": "Expert Skill",
 			"tags": [
-				"Exploration",
-				"Outdoor",
-				"Technical",
-				"Vehicle"
+				"Knowledge",
+				"Occult",
+				"Scholarly",
+				"Social Sciences"
 			],
-			"specialization": "Anomalous",
+			"specialization": "Noöspherics",
 			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Mathematics",
-					"specialization": "Pure",
-					"modifier": -5
-				}
-			],
-			"tech_level": "",
 			"points": 1
 		},
 		{
-			"id": "SGiz51acGROonf6aa",
-			"name": "Anomalous Fields",
-			"children": [
-				{
-					"id": "s8sOU10gVEqSTh51l",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sGkpZOHz0g5ARAcej"
-					},
-					"name": "Thaumatology",
-					"reference": "B225",
-					"tags": [
-						"Magical",
-						"Occult"
-					],
-					"difficulty": "iq/vh",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -7
-						}
-					],
-					"points": 1
-				},
-				{
-					"id": "s9Ka3vnRI9bYdqWp_",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s8ymM74He3oqSLAIz"
-					},
-					"name": "Expert Skill",
-					"tags": [
-						"Knowledge",
-						"Occult",
-						"Scholarly",
-						"Social Sciences"
-					],
-					"specialization": "Noöspherics",
-					"difficulty": "iq/h",
-					"points": 1
-				},
-				{
-					"id": "sJHXF_I93eXo9YRyr",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s8ymM74He3oqSLAIz"
-					},
-					"name": "Expert Skill",
-					"tags": [
-						"Knowledge",
-						"Occult",
-						"Scholarly",
-						"Social Sciences"
-					],
-					"specialization": "Infohazards",
-					"difficulty": "iq/h",
-					"points": 1
-				},
-				{
-					"id": "sUFiql4op5tfnUbAy",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s8ymM74He3oqSLAIz"
-					},
-					"name": "Expert Skill",
-					"tags": [
-						"Knowledge",
-						"Occult",
-						"Scholarly",
-						"Social Sciences"
-					],
-					"specialization": "Antimemetics",
-					"difficulty": "iq/h",
-					"points": 1
-				}
-			]
+			"id": "sJHXF_I93eXo9YRyr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s8ymM74He3oqSLAIz"
+			},
+			"name": "Expert Skill",
+			"tags": [
+				"Knowledge",
+				"Occult",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"specialization": "Infohazards",
+			"difficulty": "iq/h",
+			"points": 1
+		},
+		{
+			"id": "sUFiql4op5tfnUbAy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Skills.skl",
+				"id": "s8ymM74He3oqSLAIz"
+			},
+			"name": "Expert Skill",
+			"tags": [
+				"Knowledge",
+				"Occult",
+				"Scholarly",
+				"Social Sciences"
+			],
+			"specialization": "Antimemetics",
+			"difficulty": "iq/h",
+			"points": 1
 		},
 		{
 			"id": "SxKyT_tZ52Mym34VT",
@@ -167,6 +107,158 @@
 					]
 				},
 				{
+					"id": "Sti8bCgKoiBOeUbHT",
+					"name": "Department of Parazoology",
+					"children": [
+						{
+							"id": "svHNfjEGw2g_rGzVL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sb6LoqgrQgzKvzHH2"
+							},
+							"name": "Biology",
+							"reference": "B180",
+							"tags": [
+								"Natural Science",
+								"Plant"
+							],
+							"specialization": "Anomalous",
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -6
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "s6Uvr7lZb2KH5inhx",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sxVUUyE3lmz8LXpHG"
+							},
+							"name": "Naturalist",
+							"reference": "B211",
+							"tags": [
+								"Animal",
+								"Exploration",
+								"Natural Science",
+								"Outdoor",
+								"Plant"
+							],
+							"replacements": {
+								"Planet type": "Anomalous"
+							},
+							"specialization": "@Planet type@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sw_l8IYMFMwGDI0VU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "souQEXbTa7sf2sUGU"
+							},
+							"name": "Veterinary",
+							"reference": "B228",
+							"tags": [
+								"Animal",
+								"Medical"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Animal Handling",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physician",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Surgery",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sPbljV-YifwC7S3hl",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sQ9Hv-SvAISrf1vW8"
+							},
+							"name": "Animal Handling",
+							"reference": "B175",
+							"tags": [
+								"Animal"
+							],
+							"specialization": "@Specialty@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "s15KEQFg9M4X6kewn",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s3rs5bVG0nxQSZEGS"
+							},
+							"name": "Tracking",
+							"reference": "B226",
+							"tags": [
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "per/a",
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
 					"id": "SLm9NSGFXu4gQpkMI",
 					"name": "Cryptozoology Division",
 					"children": [
@@ -183,7 +275,7 @@
 								"Natural Science",
 								"Plant"
 							],
-							"specialization": "Parazoology",
+							"specialization": "Anomalous",
 							"difficulty": "iq/vh",
 							"defaults": [
 								{
@@ -232,6 +324,86 @@
 								}
 							],
 							"points": 1
+						},
+						{
+							"id": "sfKiqwEFbhQPyb115",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sx3TN2kRYgqo5AGcp"
+							},
+							"name": "Survival",
+							"reference": "B223",
+							"tags": [
+								"Exploration",
+								"Outdoor"
+							],
+							"replacements": {
+								"Any Environment": "Anomalous"
+							},
+							"specialization": "@Any Environment@",
+							"difficulty": "per/a",
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sYBCltnn1B2qV1czo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s3rs5bVG0nxQSZEGS"
+							},
+							"name": "Tracking",
+							"reference": "B226",
+							"tags": [
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "per/a",
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sNcr8ahkuDgaCMsve",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sa4xUKRmFe81nvpnd"
+							},
+							"name": "Occultism",
+							"reference": "B212",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 1
 						}
 					]
 				},
@@ -263,6 +435,38 @@
 									"type": "skill",
 									"name": "Religious Ritual",
 									"specialization": "Tactical",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "s6O0lda-j7x8vkr-S",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sMIRD7ORV8Bmze6Af"
+							},
+							"name": "Theology",
+							"reference": "B226",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"replacements": {
+								"Specialty": "Comparative"
+							},
+							"specialization": "@Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Religious Ritual",
+									"specialization": "@Specialty@",
 									"modifier": -4
 								}
 							],
@@ -364,6 +568,24 @@
 								}
 							],
 							"points": 1
+						},
+						{
+							"id": "sC--hbdpolTxydNpg",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8Yggll7crUG0Fd3b"
+							},
+							"name": "Hidden Lore",
+							"reference": "B199,MA57",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult"
+							],
+							"specialization": "Demon Lore",
+							"difficulty": "iq/a",
+							"points": 1
 						}
 					]
 				},
@@ -387,6 +609,42 @@
 							],
 							"specialization": "Memetics",
 							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "sAsdZAEiiQs0_BNS0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sDKy9mOhQeiZ6fjvq"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science"
+							],
+							"replacements": {
+								"Specialization": "Information Theory"
+							},
+							"specialization": "@Specialization@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
 							"points": 1
 						},
 						{
@@ -695,6 +953,50 @@
 								}
 							],
 							"points": 1
+						},
+						{
+							"id": "ss73IScFcaMe8CeyS",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sobRrRzKAElO2x1dN"
+							},
+							"name": "Physics",
+							"reference": "B213",
+							"tags": [
+								"Natural Science"
+							],
+							"replacements": {
+								"TL 6+ Optional Specialty": "Paraphysics"
+							},
+							"specialization": "@TL 6+ Optional Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										},
+										"specialization": {
+											"compare": "is",
+											"qualifier": "applied"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 1
 						}
 					]
 				},
@@ -725,18 +1027,22 @@
 							"points": 1
 						},
 						{
-							"id": "s9t9hq7ePaIMXcmFk",
+							"id": "sluJYg71zmj9Dz0kG",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "snf1C1wltuy8_tanr"
+								"id": "sobRrRzKAElO2x1dN"
 							},
 							"name": "Physics",
 							"reference": "B213",
 							"tags": [
 								"Natural Science"
 							],
-							"difficulty": "iq/vh",
+							"replacements": {
+								"TL 6+ Optional Specialty": "Parachronic"
+							},
+							"specialization": "@TL 6+ Optional Specialty@",
+							"difficulty": "iq/h",
 							"defaults": [
 								{
 									"type": "iq",
@@ -746,10 +1052,6 @@
 							"prereqs": {
 								"type": "prereq_list",
 								"all": true,
-								"when_tl": {
-									"compare": "at_least",
-									"qualifier": 5
-								},
 								"prereqs": [
 									{
 										"type": "skill_prereq",
@@ -784,6 +1086,150 @@
 							],
 							"specialization": "Ontokinetics",
 							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "sjwK_0FlXo7F-sBP_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sB3gtNTy3UoSm8Wcx"
+							},
+							"name": "Electronics Operation",
+							"reference": "B189",
+							"tags": [
+								"Technical"
+							],
+							"specialization": "Parachronic",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"specialization": "Parachronic",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "s2NcWPGURYmoK4C5B",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sK981_M0kChuLG7Xd"
+							},
+							"name": "Electronics Repair",
+							"reference": "B190",
+							"tags": [
+								"Maintenance",
+								"Repair"
+							],
+							"specialization": "Parachronic",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"specialization": "Parachronic",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sxcz-pT5JKJkM9waB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8Nohgm_Mmc34THir"
+							},
+							"name": "Engineer",
+							"reference": "B190",
+							"tags": [
+								"Design",
+								"Engineer",
+								"Invention"
+							],
+							"specialization": "Parachronic",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"specialization": "Parachronic",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "prereq_list",
+										"all": true,
+										"when_tl": {
+											"compare": "at_least",
+											"qualifier": 5
+										},
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "mathematics"
+												},
+												"specialization": {
+													"compare": "is",
+													"qualifier": "applied"
+												}
+											}
+										]
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "physics"
+										}
+									}
+								]
+							},
+							"tech_level": "",
 							"points": 1
 						}
 					]
@@ -847,7 +1293,7 @@
 								"Social Sciences"
 							],
 							"replacements": {
-								"Specialty": "Pataphysics"
+								"Specialty": "Irrational"
 							},
 							"specialization": "@Specialty@",
 							"difficulty": "iq/h",
@@ -916,6 +1362,912 @@
 									"modifier": -4
 								}
 							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SjW0hefb_rJvCeHZZ",
+					"name": "Department of Metaphysics",
+					"children": [
+						{
+							"id": "sqBdCIUO59OEvM6bc",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sW3Kxrpz-XOleoZOl"
+							},
+							"name": "Philosophy",
+							"reference": "B213",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"replacements": {
+								"Specialty": "Irrational"
+							},
+							"specialization": "@Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sUP50JAnw-PjRUWmX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "si6mX4OGmTtcWb1ud"
+							},
+							"name": "Weird Science",
+							"reference": "B228",
+							"tags": [
+								"Design",
+								"Invention"
+							],
+							"difficulty": "iq/vh",
+							"points": 1
+						},
+						{
+							"id": "sEg0QRF2a5Gxg3wzd",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGkpZOHz0g5ARAcej"
+							},
+							"name": "Thaumatology",
+							"reference": "B225",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "siyl8dTw3uNcxg7Pe",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sa4xUKRmFe81nvpnd"
+							},
+							"name": "Occultism",
+							"reference": "B212",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "slpuDY5NqcWWE9TJn",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sIjMNo0yR2zZYXW5m"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science"
+							],
+							"specialization": "Pure",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SnFvj_JRPoi4Z8XK3",
+					"name": "Department of Esoteric Physics",
+					"children": [
+						{
+							"id": "s7CPhPdNq8rYkYpPZ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "si6mX4OGmTtcWb1ud"
+							},
+							"name": "Weird Science",
+							"reference": "B228",
+							"tags": [
+								"Design",
+								"Invention"
+							],
+							"difficulty": "iq/vh",
+							"points": 1
+						},
+						{
+							"id": "sSbmj8qL339y5GT3o",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sobRrRzKAElO2x1dN"
+							},
+							"name": "Physics",
+							"reference": "B213",
+							"tags": [
+								"Natural Science"
+							],
+							"replacements": {
+								"TL 6+ Optional Specialty": "Parachronic"
+							},
+							"specialization": "@TL 6+ Optional Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										},
+										"specialization": {
+											"compare": "is",
+											"qualifier": "applied"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "seTkip7z2ZS7wDBu_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGgBbCTe-AwY1nu3W"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science"
+							],
+							"specialization": "Applied: @Optional specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "szgV2Lvusgm-IOYX_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s6AbBm2rmYkJwjkmr"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science"
+							],
+							"specialization": "Pure: @Optional specialty@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sUhyXNHmY86xrqyCA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGkpZOHz0g5ARAcej"
+							},
+							"name": "Thaumatology",
+							"reference": "B225",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/vh",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "snzadbtZSVD4rRLSu",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"reference": "B193,MA56",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult",
+								"Scholarly"
+							],
+							"specialization": "Esoteric Physics",
+							"difficulty": "iq/h",
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "S2EBREm40K0dZGUrA",
+					"name": "Department of Extradimensional Matters",
+					"children": [
+						{
+							"id": "sTh9yKNh6_m-t9dQ0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"reference": "B193,MA56",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult",
+								"Scholarly"
+							],
+							"specialization": "Extradimensional Matters",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "s93vgTwFvi6zs9J5v",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "shChZ7cQ-SIe7JKo6"
+							},
+							"name": "Navigation",
+							"reference": "B211",
+							"tags": [
+								"Exploration",
+								"Outdoor",
+								"Technical",
+								"Vehicle"
+							],
+							"specialization": "Anomalous",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Surveying",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sa3LXHytcKXPWbS6N",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sobRrRzKAElO2x1dN"
+							},
+							"name": "Physics",
+							"reference": "B213",
+							"tags": [
+								"Natural Science"
+							],
+							"replacements": {
+								"TL 6+ Optional Specialty": "Parachronic"
+							},
+							"specialization": "@TL 6+ Optional Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										},
+										"specialization": {
+											"compare": "is",
+											"qualifier": "applied"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "s7Ub5LpjPhx9dAJj-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGgBbCTe-AwY1nu3W"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science"
+							],
+							"specialization": "Applied: Hyperdimensional",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sRRlmvCApyxV9AV1x",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s6AbBm2rmYkJwjkmr"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science"
+							],
+							"specialization": "Pure: Topology",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sCT7EI8xHgWYmdvOJ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sx62SUlbcnPwj3FHT"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science",
+								"Technical"
+							],
+							"specialization": "Surveying",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Cartography",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "stE70SRXbS0VZEO3k",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sB28HTR_MZyXLP90w"
+							},
+							"name": "Cartography",
+							"reference": "B183",
+							"tags": [
+								"Exploration",
+								"Humanities",
+								"Outdoor",
+								"Social Sciences"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Surveying",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sxvytHRMIVZMHz0ot",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sB3gtNTy3UoSm8Wcx"
+							},
+							"name": "Electronics Operation",
+							"reference": "B189",
+							"tags": [
+								"Technical"
+							],
+							"specialization": "Parachronic",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"specialization": "Parachronic",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sbQYgAiez-bYnFXMm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sK981_M0kChuLG7Xd"
+							},
+							"name": "Electronics Repair",
+							"reference": "B190",
+							"tags": [
+								"Maintenance",
+								"Repair"
+							],
+							"specialization": "Parachronic",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"specialization": "Parachronic",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sYWI09qREv7693e9K",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8Nohgm_Mmc34THir"
+							},
+							"name": "Engineer",
+							"reference": "B190",
+							"tags": [
+								"Design",
+								"Engineer",
+								"Invention"
+							],
+							"specialization": "Parachronic",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"specialization": "Parachronic",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "prereq_list",
+										"all": true,
+										"when_tl": {
+											"compare": "at_least",
+											"qualifier": 5
+										},
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "mathematics"
+												},
+												"specialization": {
+													"compare": "is",
+													"qualifier": "applied"
+												}
+											}
+										]
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "physics"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SsNQtzFNU-3VvVpYM",
+					"name": "Temporal Anomalies Department",
+					"children": [
+						{
+							"id": "s4w3aHC39CuCjJ4qL",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"reference": "B193,MA56",
+							"tags": [
+								"Knowledge",
+								"Occult",
+								"Scholarly"
+							],
+							"specialization": "Temporal Studies",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "sWVbYhdMKeeJgRZaB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGgBbCTe-AwY1nu3W"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science"
+							],
+							"replacements": {
+								"Optional specialty": "Temporal"
+							},
+							"specialization": "Applied: @Optional specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sllqw7TI-OtqpQXj3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sobRrRzKAElO2x1dN"
+							},
+							"name": "Physics",
+							"reference": "B213",
+							"tags": [
+								"Natural Science"
+							],
+							"replacements": {
+								"TL 6+ Optional Specialty": "Temporal"
+							},
+							"specialization": "@TL 6+ Optional Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										},
+										"specialization": {
+											"compare": "is",
+											"qualifier": "applied: temporal"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sf8x6JR_o1u7E1W-u",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s-jqomebw2i8evlOI"
+							},
+							"name": "Electronics Operation",
+							"reference": "B189",
+							"tags": [
+								"Technical"
+							],
+							"specialization": "Temporal",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"specialization": "Temporal",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sddKTWpdM7M4FK9O6",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sqq3dnFI2aqkccJtL"
+							},
+							"name": "Electronics Repair",
+							"reference": "B190",
+							"tags": [
+								"Maintenance",
+								"Repair"
+							],
+							"specialization": "Temporal",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"specialization": "Temporal",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "stk49VphmXbgCxjOp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sZvOeqDNrMkgHxC87"
+							},
+							"name": "Engineer",
+							"reference": "B190",
+							"tags": [
+								"Design",
+								"Engineer",
+								"Invention"
+							],
+							"specialization": "Temporal",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"specialization": "Temporal",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "prereq_list",
+										"all": true,
+										"when_tl": {
+											"compare": "at_least",
+											"qualifier": 5
+										},
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": true,
+												"name": {
+													"compare": "is",
+													"qualifier": "mathematics"
+												},
+												"specialization": {
+													"compare": "is",
+													"qualifier": "applied"
+												}
+											}
+										]
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "physics"
+										}
+									}
+								]
+							},
+							"tech_level": "",
 							"points": 1
 						}
 					]
