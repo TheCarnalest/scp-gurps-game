@@ -2,60 +2,6 @@
 	"version": 5,
 	"rows": [
 		{
-			"id": "s9Ka3vnRI9bYdqWp_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s8ymM74He3oqSLAIz"
-			},
-			"name": "Expert Skill",
-			"tags": [
-				"Knowledge",
-				"Occult",
-				"Scholarly",
-				"Social Sciences"
-			],
-			"specialization": "Noöspherics",
-			"difficulty": "iq/h",
-			"points": 1
-		},
-		{
-			"id": "sJHXF_I93eXo9YRyr",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s8ymM74He3oqSLAIz"
-			},
-			"name": "Expert Skill",
-			"tags": [
-				"Knowledge",
-				"Occult",
-				"Scholarly",
-				"Social Sciences"
-			],
-			"specialization": "Infohazards",
-			"difficulty": "iq/h",
-			"points": 1
-		},
-		{
-			"id": "sUFiql4op5tfnUbAy",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "s8ymM74He3oqSLAIz"
-			},
-			"name": "Expert Skill",
-			"tags": [
-				"Knowledge",
-				"Occult",
-				"Scholarly",
-				"Social Sciences"
-			],
-			"specialization": "Antimemetics",
-			"difficulty": "iq/h",
-			"points": 1
-		},
-		{
 			"id": "SxKyT_tZ52Mym34VT",
 			"name": "Departments",
 			"children": [
@@ -770,6 +716,60 @@
 									"modifier": -4
 								}
 							],
+							"points": 1
+						},
+						{
+							"id": "s9Ka3vnRI9bYdqWp_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"tags": [
+								"Knowledge",
+								"Occult",
+								"Scholarly",
+								"Social Sciences"
+							],
+							"specialization": "Noöspherics",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "sJHXF_I93eXo9YRyr",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"tags": [
+								"Knowledge",
+								"Occult",
+								"Scholarly",
+								"Social Sciences"
+							],
+							"specialization": "Infohazards",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
+							"id": "sUFiql4op5tfnUbAy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"tags": [
+								"Knowledge",
+								"Occult",
+								"Scholarly",
+								"Social Sciences"
+							],
+							"specialization": "Antimemetics",
+							"difficulty": "iq/h",
 							"points": 1
 						}
 					]
@@ -1486,6 +1486,25 @@
 					"name": "Department of Esoteric Physics",
 					"children": [
 						{
+							"id": "snzadbtZSVD4rRLSu",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8ymM74He3oqSLAIz"
+							},
+							"name": "Expert Skill",
+							"reference": "B193,MA56",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult",
+								"Scholarly"
+							],
+							"specialization": "Esoteric Physics",
+							"difficulty": "iq/h",
+							"points": 1
+						},
+						{
 							"id": "s7CPhPdNq8rYkYpPZ",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -1621,25 +1640,6 @@
 									"modifier": -7
 								}
 							],
-							"points": 1
-						},
-						{
-							"id": "snzadbtZSVD4rRLSu",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "s8ymM74He3oqSLAIz"
-							},
-							"name": "Expert Skill",
-							"reference": "B193,MA56",
-							"tags": [
-								"Knowledge",
-								"Magical",
-								"Occult",
-								"Scholarly"
-							],
-							"specialization": "Esoteric Physics",
-							"difficulty": "iq/h",
 							"points": 1
 						}
 					]
