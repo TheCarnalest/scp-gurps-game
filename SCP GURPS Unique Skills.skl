@@ -532,6 +532,43 @@
 							"specialization": "Demon Lore",
 							"difficulty": "iq/a",
 							"points": 1
+						},
+						{
+							"id": "sR7qvHt-pv_aPPlFU",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sPWO_H185qkzZtRb0"
+							},
+							"name": "Anthropology",
+							"reference": "B175",
+							"tags": [
+								"Humanities",
+								"Social Sciences"
+							],
+							"replacements": {
+								"Species": "Human"
+							},
+							"specialization": "@Species@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Paleontology",
+									"specialization": "Paleoanthropology",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Sociology",
+									"modifier": -3
+								}
+							],
+							"points": 1
 						}
 					]
 				},
