@@ -187,7 +187,7 @@
 					],
 					"modifiers": [
 						{
-							"id": "mAd4XuegfFs9nil3e",
+							"id": "mcNZxSjJLqK0RxrEL",
 							"name": "Replaces Status",
 							"reference": "B29",
 							"cost_adj": "5",
@@ -195,19 +195,24 @@
 							"disabled": true
 						},
 						{
-							"id": "mI4woJVsiA2YNZBQQ",
+							"id": "mxrjzCJWs01r0lYcD",
 							"name": "Courtesy",
 							"reference": "B29",
 							"cost_adj": "-4",
 							"affects": "levels_only",
 							"disabled": true
+						},
+						{
+							"id": "mdGGP15RMvaRujmiz",
+							"name": "Compulsory",
+							"cost_adj": "-5"
 						}
 					],
 					"points_per_level": 5,
 					"can_level": true,
 					"levels": 1,
 					"calc": {
-						"points": 5,
+						"points": 0,
 						"current_level": 1
 					}
 				},
@@ -226,32 +231,32 @@
 					],
 					"modifiers": [
 						{
-							"id": "MZue0-fqOrjN4CPr-",
+							"id": "MNbJ3CbXTwgL71ijm",
 							"name": "Frequency",
 							"children": [
 								{
-									"id": "mhUUfOk32bUQ0p0Vc",
+									"id": "m2_rLoML5sAyxddo_",
 									"name": "Quite rarely",
 									"local_notes": "6-",
 									"cost_adj": "-2",
 									"disabled": true
 								},
 								{
-									"id": "mW-YQEq_mdF2RBfNg",
+									"id": "mVFm1ApW_EKRgx2X9",
 									"name": "Fairly often",
 									"local_notes": "9-",
 									"cost_adj": "-5",
 									"disabled": true
 								},
 								{
-									"id": "msvrh4wHRJEy3AlsI",
+									"id": "mEUxavcAVJil8So3d",
 									"name": "Quite often",
 									"local_notes": "12-",
 									"cost_adj": "-10",
 									"disabled": true
 								},
 								{
-									"id": "m4j8is3YSsOSf0Cn1",
+									"id": "m0YkfxdM9byo5oKi7",
 									"name": "Almost all the time",
 									"local_notes": "15- or always on duty",
 									"cost_adj": "-15"
@@ -259,25 +264,30 @@
 							]
 						},
 						{
-							"id": "mFedMYNrohUiaBJY2",
+							"id": "mR0W6a1AlqfcLMPwU",
 							"name": "Extremely Hazardous",
 							"cost_adj": "-5"
 						},
 						{
-							"id": "mma-S4L5mi1yZSW_e",
+							"id": "mudW5kOBveCEcZp8B",
 							"name": "Involuntary",
 							"cost_adj": "-5",
 							"disabled": true
 						},
 						{
-							"id": "m7Q5t2czd5czPFWiR",
+							"id": "mVIaTsF8upLMep25G",
 							"name": "Nonhazardous",
 							"cost_adj": "5",
 							"disabled": true
+						},
+						{
+							"id": "m_ZC7n51VTTekRPZM",
+							"name": "Compulsory",
+							"cost_adj": "+20"
 						}
 					],
 					"calc": {
-						"points": -20
+						"points": 0
 					}
 				},
 				{
@@ -295,35 +305,40 @@
 					],
 					"modifiers": [
 						{
-							"id": "mekZ8zB8oJCt9nDLe",
+							"id": "mxdAZlXwh0NIiFgeQ",
 							"name": "Serious Embarrassment",
 							"reference": "B152",
 							"cost_adj": "-5",
 							"disabled": true
 						},
 						{
-							"id": "mAIKz6tCNGi_uNMik",
+							"id": "mi2Yc6QnNDUKhO5SG",
 							"name": "Utter Rejection",
 							"reference": "B152",
 							"cost_adj": "-10",
 							"disabled": true
 						},
 						{
-							"id": "m4ifcyrsTtKCwfTIt",
+							"id": "mJscopLBJ_B2840kF",
 							"name": "Imprisonment",
 							"reference": "B152",
 							"cost_adj": "-20",
 							"disabled": true
 						},
 						{
-							"id": "m3Dt44zZSO0dqftVM",
+							"id": "mUJcPOmccZwDgkcsn",
 							"name": "Possible Death",
 							"reference": "B152",
 							"cost_adj": "-30"
+						},
+						{
+							"id": "mbZUjYJSKkd0AKw44",
+							"name": "Compulsory",
+							"cost_adj": "+30"
 						}
 					],
 					"calc": {
-						"points": -30
+						"points": 0
 					}
 				},
 				{
@@ -341,66 +356,66 @@
 					],
 					"modifiers": [
 						{
-							"id": "MFI0JVDrMKa3jQp95",
+							"id": "MG8pCieBEc8vPSZLh",
 							"name": "Power",
 							"children": [
 								{
-									"id": "mfbswIeZm0m8VGoJu",
+									"id": "mJIwmsnNQeczT0mN4",
 									"name": "@Who: Individual with 150% of PC's starting points@",
 									"reference": "B72",
 									"cost_adj": "10",
 									"disabled": true
 								},
 								{
-									"id": "mgQsflJ_x_faDs-uP",
+									"id": "moRNwAcHrxjxIxFRF",
 									"name": "@Who: Organization with assets of at least 1000 times starting wealth@",
 									"reference": "B72",
 									"cost_adj": "10",
 									"disabled": true
 								},
 								{
-									"id": "mwP_UkbL8EcHXF-5u",
+									"id": "mXiDIF5KCeS-TJsrv",
 									"name": "@Who: Individual with twice the PC's starting points@",
 									"reference": "B72",
 									"cost_adj": "15",
 									"disabled": true
 								},
 								{
-									"id": "m7JJqAB9ZKCDLRpU3",
+									"id": "mpPqE7AIo1eDNHZ-g",
 									"name": "@Who: Organization with assets of at least 10000 times starting wealth@",
 									"reference": "B72",
 									"cost_adj": "15",
 									"disabled": true
 								},
 								{
-									"id": "mGNTqQPv8W_tsZHrX",
+									"id": "mh4MQfEspP9QnGXY6",
 									"name": "@Who: An ultra-powerful individual@",
 									"reference": "B72",
 									"cost_adj": "20",
 									"disabled": true
 								},
 								{
-									"id": "mVDDYihATgvgi_t0m",
+									"id": "m4FOTV56vaWx3v8yp",
 									"name": "@Who: Organization with assets of at least 100000 times starting wealth@",
 									"reference": "B72",
 									"cost_adj": "20",
 									"disabled": true
 								},
 								{
-									"id": "mebWrmAEsMB63fcpA",
+									"id": "mckhWhsFKCGhq3Lrs",
 									"name": "@Who: Organization with assets of at least 1000000 times starting wealth@",
 									"reference": "B72",
 									"cost_adj": "25",
 									"disabled": true
 								},
 								{
-									"id": "mkk580EJ2yqrGRaZP",
+									"id": "mw_pD5Rl3eDgwyho-",
 									"name": "SCP Foundation",
 									"reference": "B72",
 									"cost_adj": "30"
 								},
 								{
-									"id": "mawBTROwptisU2N7w",
+									"id": "mAwRv0RnTydodACH5",
 									"name": "@Who: A deity@",
 									"reference": "B72",
 									"cost_adj": "30",
@@ -409,11 +424,11 @@
 							]
 						},
 						{
-							"id": "MVVsv2uKNv9xGjn_p",
+							"id": "MpwxMFkK2E9zJTHmK",
 							"name": "Frequency of Appearance",
 							"children": [
 								{
-									"id": "mA_OIgwIgovrwlxv7",
+									"id": "mJOOp9-Juii50bsQz",
 									"name": "Appears quite rarely",
 									"reference": "B36",
 									"local_notes": "6-",
@@ -421,7 +436,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mPkTt4yXtJPE8qgz6",
+									"id": "mGt1OKoH9ASU7YGvp",
 									"name": "Appears fairly often",
 									"reference": "B36",
 									"local_notes": "9-",
@@ -429,7 +444,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mvet5NTm8dnRuSbu9",
+									"id": "m6bbsdhOWs7PibpcR",
 									"name": "Appears quite often",
 									"reference": "B36",
 									"local_notes": "12-",
@@ -437,7 +452,7 @@
 									"disabled": true
 								},
 								{
-									"id": "mZUlmwqnwrgzixkKG",
+									"id": "m_wmMQqZWlAClcIlI",
 									"name": "Appears almost all the time",
 									"reference": "B36",
 									"local_notes": "15-",
@@ -447,7 +462,7 @@
 							]
 						},
 						{
-							"id": "mdv2yvCz_nxMP7_fg",
+							"id": "mczSPQ-6AHu7k1YJy",
 							"name": "Equipment",
 							"reference": "B73",
 							"local_notes": "@Equipment worth no more than average starting wealth@",
@@ -455,7 +470,7 @@
 							"disabled": true
 						},
 						{
-							"id": "mUS1467hwXwp4EXil",
+							"id": "mffU473kzEjAtHQXh",
 							"name": "Equipment",
 							"reference": "B73",
 							"local_notes": "@Equipment worth more than average starting wealth@",
@@ -463,14 +478,14 @@
 							"disabled": true
 						},
 						{
-							"id": "mherwcZRkIRnAiIjT",
+							"id": "maTShbjw2ZxshytU6",
 							"name": "Highly Accessible",
 							"reference": "B73",
 							"cost_adj": "50%",
 							"disabled": true
 						},
 						{
-							"id": "m9takgkHWPLQOv8-v",
+							"id": "mSXL25PI2F_u1NUcO",
 							"name": "Special Abilities",
 							"reference": "B73",
 							"local_notes": "@Extensive social or political power@",
@@ -478,43 +493,48 @@
 							"disabled": true
 						},
 						{
-							"id": "mKNYHoKM_IQkvUBMt",
+							"id": "mfgbNE_p_l9Wwj3kU",
 							"name": "Special Abilities",
 							"reference": "B73",
 							"local_notes": "Higher TL equipment, access to the supernatural",
 							"cost_adj": "100%"
 						},
 						{
-							"id": "m1TjHi1sdWNZyQ9IM",
+							"id": "m5jFz2p23PN0_MUf-",
 							"name": "Minimal Interventions",
 							"reference": "B73",
 							"cost_adj": "-50%",
 							"disabled": true
 						},
 						{
-							"id": "mhm0NlW9sraUMax4I",
+							"id": "mW8YMJg34zMBJP0Ex",
 							"name": "Secret",
 							"reference": "B73",
 							"cost_adj": "-50%",
 							"disabled": true
 						},
 						{
-							"id": "mAKoRmbYIWDRxODu1",
+							"id": "mEK1Do0bXoggNAp2m",
 							"name": "Unwilling",
 							"reference": "B74",
 							"cost_adj": "-50%",
 							"disabled": true
 						},
 						{
-							"id": "m8YXFZiyqVW47lG5F",
+							"id": "mqLL7-ZwWDWHrWl3e",
 							"name": "Favor",
 							"reference": "B55",
 							"cost_adj": "x0.2",
 							"disabled": true
+						},
+						{
+							"id": "mqgHkHOb1oe2hCSuS",
+							"name": "Compulsory",
+							"cost_adj": "-30"
 						}
 					],
 					"calc": {
-						"points": 60
+						"points": 0
 					}
 				},
 				{
@@ -532,40 +552,45 @@
 					],
 					"modifiers": [
 						{
-							"id": "mFgXd0S17AzRgBoQg",
+							"id": "mE0DMBYJMm8m60914",
 							"name": "Foundation Agent",
 							"reference": "B65",
 							"cost_adj": "5"
 						},
 						{
-							"id": "mohB_IqrtasoFniUY",
+							"id": "msvQRgi1xjWj9Yhtb",
 							"name": "Petty Diplomat",
 							"reference": "B65",
 							"cost_adj": "15",
 							"disabled": true
 						},
 						{
-							"id": "mRsIFfTKaMb3gbMb-",
+							"id": "m4FcHiVu2CaGXuPsS",
 							"name": "Diplomatic Immunity",
 							"reference": "B65",
 							"cost_adj": "20",
 							"disabled": true
 						},
 						{
-							"id": "mr751Y4fDJ9cKq2fI",
+							"id": "mP8u6CTEKkYuvEMXR",
 							"name": "Bard",
 							"reference": "B65",
 							"cost_adj": "10",
 							"disabled": true
+						},
+						{
+							"id": "mHkIuzzRppO1ugPa5",
+							"name": "Compulsory",
+							"cost_adj": "-5"
 						}
 					],
 					"calc": {
-						"points": 5
+						"points": 0
 					}
 				}
 			],
 			"calc": {
-				"points": 20
+				"points": 0
 			}
 		}
 	]
