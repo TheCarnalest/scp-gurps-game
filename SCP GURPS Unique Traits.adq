@@ -592,6 +592,537 @@
 			"calc": {
 				"points": 0
 			}
+		},
+		{
+			"id": "TVRIOXpvdrkqQYxuA",
+			"name": "Department Talents",
+			"children": [
+				{
+					"id": "tT62akJHmBgXyGCm2",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "toHMEtXUwB6kUvwsU"
+					},
+					"name": "Talent (@Small@)",
+					"reference": "B89",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent"
+					],
+					"replacements": {
+						"Small": "Parazoologist",
+						"reaction bonus situation": "Parazoologists",
+						"skill1": "Biology",
+						"skill2": "Naturalist",
+						"skill3": "Veterinary",
+						"skill4": "Animal Handling",
+						"skill5": "Tracking",
+						"skill6": ""
+					},
+					"modifiers": [
+						{
+							"id": "mAAV_eDOrPa2ltt3G",
+							"name": "Alternate Benefit",
+							"local_notes": "@Alternate Benefit@",
+							"disabled": true
+						},
+						{
+							"id": "mBhEwqTNl6u1tanEs",
+							"name": "Alternative Cost",
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill1@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill2@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill3@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill4@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill5@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill6@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "@reaction bonus situation@",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tOERWMxvLZ2WrNPWz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "toHMEtXUwB6kUvwsU"
+					},
+					"name": "Talent (@Small@)",
+					"reference": "B89",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent"
+					],
+					"replacements": {
+						"Small": "Cryptozoologist",
+						"reaction bonus situation": "Cryptozoologists",
+						"skill1": "Biology",
+						"skill2": "Naturalist",
+						"skill3": "Survival",
+						"skill4": "Tracking",
+						"skill5": "Occultism",
+						"skill6": ""
+					},
+					"modifiers": [
+						{
+							"id": "mEuRavvIcYk7p9fLX",
+							"name": "Alternate Benefit",
+							"local_notes": "@Alternate Benefit@",
+							"disabled": true
+						},
+						{
+							"id": "m5T0d2A1YcOpUBHVn",
+							"name": "Alternative Cost",
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill1@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill2@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill3@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill4@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill5@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill6@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "@reaction bonus situation@",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "t32hSTLsJ_p6nDjmF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "toHMEtXUwB6kUvwsU"
+					},
+					"name": "Talent (@Small@)",
+					"reference": "B89",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent"
+					],
+					"replacements": {
+						"Small": "Tactical Theologian",
+						"reaction bonus situation": "Tactical Theologians",
+						"skill1": "Theology",
+						"skill2": "Religious Ritual",
+						"skill3": "Exorcism",
+						"skill4": "Hidden Lore",
+						"skill5": "Anthropology"
+					},
+					"modifiers": [
+						{
+							"id": "mjWPgOHNsodnBhRLa",
+							"name": "Alternate Benefit",
+							"local_notes": "@Alternate Benefit@",
+							"disabled": true
+						},
+						{
+							"id": "mZRbYiF4KiadCKewP",
+							"name": "Alternative Cost",
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill1@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill2@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill3@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill4@"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Demon Lore"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill5@"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "Human"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "@reaction bonus situation@",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tFAwILIFB0kt4oOuK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tPf9tVG58PuRUnLJ4"
+					},
+					"name": "Talent (@Medium@)",
+					"reference": "B89",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Talent"
+					],
+					"replacements": {
+						"Medium": "Memeticist",
+						"reaction bonus situation": "Memeticists",
+						"skill01": "Expert Skill",
+						"skill02": "Mathematics",
+						"skill03": "Brainwashing",
+						"skill04": "Propaganda",
+						"skill05": "Psychology",
+						"skill06": "Sociology",
+						"skill07": "Expert Skill",
+						"skill08": "Expert Skill",
+						"skill09": "Expert Skill"
+					},
+					"modifiers": [
+						{
+							"id": "msEutDlafUlxIdXv4",
+							"name": "Alternate Benefit",
+							"local_notes": "@Alternate Benefit@",
+							"disabled": true
+						},
+						{
+							"id": "mMh1Z_nTiuFW9sNiW",
+							"name": "Alternative Cost",
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill01@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill02@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill03@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill04@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill05@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill06@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill07@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill08@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "@skill09@"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is"
+							},
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "@reaction bonus situation@",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10,
+						"current_level": 1
+					}
+				}
+			],
+			"calc": {
+				"points": 25
+			}
 		}
 	]
 }
